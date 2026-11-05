@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(3,120px);
+    place-items: stretch;
+    gap: 5px;
+
+}
+.box{
+    background-color: rgb(255, 60, 0);
+  /* border: 3px solid grey; */
+}
+/* .four{
+    grid-row: 2/6;
+} */
+.two{
+    grid-row: 2/4;
+}
+.three.box{
+    grid-row: 1/3;
+}
+.six{
+    grid-row: 2/4;
+}

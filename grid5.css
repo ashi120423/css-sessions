@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,130px);
+    gap: 5px;
+    place-self: stretch;
+}
+.box{
+    background-color: #33e70f;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.one{
+    grid-row: 1/3;
+}
