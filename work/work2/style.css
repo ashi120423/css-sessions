@@ -164,9 +164,9 @@ h2 {
 
 .lang {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    justify-items: center;
+    grid-template-columns: repeat(3, 300px);
+    /* gap: 30px; */
+    margin: 10%;
 }
 
 .langitem {
